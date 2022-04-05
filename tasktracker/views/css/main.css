@@ -1,0 +1,120 @@
+:root {
+    --lightblue: #c6f1ff;
+    --blue: #118AB2;
+    --darkblue: #073B4C;
+    --green: #06D6A0;
+    --yellow: #FFD166;
+    --red: #EF476F;
+    --darkgray: #3d3d3d;
+    --gray: #747474; 
+    --lightgray: #d8d8d8;
+}
+.week {
+    margin-bottom: 0px;
+}
+
+.day:hover {
+    background-color: var(--lightblue) !important;
+    color: black !important;
+    transition: 0.2s;
+}
+
+.day:hover p{
+    color: black !important;
+    transition: 0.2s;
+
+}
+
+tbody tr:hover {
+    background-color: var(--lightblue) !important;
+    transition: 0.1s;
+
+}
+
+th:hover {
+    background-color: var(--lightblue) !important;
+    transition: 0.1s;
+
+}
+
+#todaystasks {
+    padding: 16px;
+}
+
+ table{
+    width: 100%;
+}
+
+thead{
+    margin: 8px;
+    border-bottom: 2px solid #747474;
+}
+
+td{
+    margin: 8px;
+
+}
+
+th{
+    margin: 16px;
+    min-width: 1%;
+}
+
+
+#todaystasks .aligncenter {
+    text-align: center;
+}
+
+
+#overduetasks {
+    padding: 16px;
+}
+
+
+
+
+#overduetasks .aligncenter {
+    text-align: center;
+}
+
+
+.sort {    
+    display: inline;
+  }
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 75%;
+}
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+#canvas {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 10;
+    padding: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+.week {
+    margin-bottom: 16px;
+}
+
+.firstday{
+    background-color: #cfcfcf;
+    border-color: #808080 !important;
+}
+.firstday p{
+    color: black !important;
+
+}
+    
+  }
